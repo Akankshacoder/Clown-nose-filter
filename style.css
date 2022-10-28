@@ -1,0 +1,22 @@
+body{
+    background-image:url("background.jpg") ;
+}
+
+canvas{
+
+    animation-name: create_anime;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    background-color: coral;
+
+}
+@keyframes create_anime{
+    from{
+        box-shadow: 5px 10px 50px red;
+        
+    }
+    to{
+        box-shadow: 5px 10px 50px green;
+
+    }
+}
